@@ -10,7 +10,7 @@ $(function () {
 		var direction = Math.round((((Math.atan2(y, x) / Math.PI * 180) + 180) / 90) + 3) % 4; //Math.round( Math.atan2(y, x) / 1.57079633 + 5 ) % 4
 		return direction;
 	}
-
+ 
 	$(".module").on("mouseenter mouseleave", function (e) {
 
 		$(this).finish();
