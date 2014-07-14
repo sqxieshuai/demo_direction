@@ -1,0 +1,61 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.content_wrap{
+	width: 100%;
+	height: 100%;
+	background: #eee;
+}
+
+.header, .footer{
+	height: 50px;
+	background: #e2e2e2;
+}
+
+.main_content{
+	height: 500px;
+}
+.main_content:after{
+	content: " ";
+	clear: both;
+}
+.main_content .module {
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.module .inner{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+.module_one{
+	background: #ddd;
+}
+.module_one .inner{
+	background: red;
+}
+.module_two{
+	background: #ccc;
+}
+.module_two .inner{
+	background: blue;
+}
+.module_three{
+	background: #bbb;
+}
+.module_three .inner{
+	background: yellow;
+}
+.module_four{
+	background: #aaa;
+}
+.module_four .inner{
+	background: green;
+}
