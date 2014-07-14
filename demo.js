@@ -34,7 +34,7 @@ $(function () {
 						"left" : "0px"
 					}).show();
 					$inner.animate({"top" : "0px"}, speed);
-					break;
+					break; 
 				case 1: //right
 					$inner.css({
 						"top" : "0px",
